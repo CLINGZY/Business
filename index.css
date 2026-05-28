@@ -43,8 +43,8 @@
   --clr-btn-outline-hover-border: rgba(255, 255, 255, 0.85);
 
   /* CARD */
-  --clr-card-bg: rgba(255, 255, 255, 0.03);
-  --clr-card-hover: rgba(240, 201, 77, 0.08);
+  --clr-card-bg: rgba(240, 201, 77, 0.04);
+  --clr-card-hover: rgba(240, 201, 77, 0.10);
 
   /* BORDER + SHADOW */
   --clr-border-light: rgba(0, 0, 0, 0.08);
