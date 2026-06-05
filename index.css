@@ -4,22 +4,22 @@
      BARBER RED BRAND SYSTEM
   ========================================= */
 
-  --clr-bg-main: #151515;
---clr-bg-surface: #1c1c1c;
-  --clr-bg-card: rgba(212, 175, 55, 0.06);
+  --clr-bg-main: #f6f2f2;
+  --clr-bg-surface: #ffffff;
+  --clr-bg-card: rgba(180, 30, 30, 0.06);
 
-  --clr-text-main: #f5f5f5;
-  --clr-text-muted: #b8b8b8;
+  --clr-text-main: #1f1f1f;
+  --clr-text-muted: #6b6b6b;
   --clr-text-light: #ffffff;
   --clr-text-dark: #0d0d0d;
 
-  --clr-accent: #f0c94d;
-  --clr-accent-hover: #ffe27a;
-  --clr-accent-soft: rgba(240, 201, 77, 0.18);
+  --clr-accent: #c1121f;
+  --clr-accent-hover: #8f0d16;
+  --clr-accent-soft: rgba(193, 18, 31, 0.12);
 
   /* NAV */
-  --clr-navbar-bg: rgba(10, 10, 10, 0.88);
-  --clr-mobile-menu-bg: rgba(10, 10, 10, 0.98);
+  --clr-navbar-bg: rgba(255, 255, 255, 0.9);
+  --clr-mobile-menu-bg: rgba(255, 255, 255, 0.98);
 
   --clr-nav-link: var(--clr-text-main);
   --clr-nav-link-hover: var(--clr-accent);
@@ -43,8 +43,8 @@
   --clr-btn-outline-hover-border: rgba(255, 255, 255, 0.85);
 
   /* CARD */
-  --clr-card-bg: rgba(240, 201, 77, 0.04);
-  --clr-card-hover: rgba(240, 201, 77, 0.10);
+  --clr-card-bg: rgba(193, 18, 31, 0.05);
+  --clr-card-hover: rgba(193, 18, 31, 0.1);
 
   /* BORDER + SHADOW */
   --clr-border-light: rgba(0, 0, 0, 0.08);
@@ -124,7 +124,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-2) 0;
+  padding: var(--space-1) 0;
 }
 
 .logo {
