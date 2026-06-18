@@ -39,19 +39,19 @@ services: [
 
 {
 title:"Haircut",
-price:"₦5,000",
+price:"₦10,000",
 description:"Clean professional cuts tailored to your style."
 },
 
 {
 title:"Beard Grooming",
-price:"₦3,000",
+price:"₦8,000",
 description:"Precision beard shaping and grooming."
 },
 
 {
 title:"Full Grooming",
-price:"₦7,500",
+price:"₦15,000",
 description:"Complete haircut and beard package."
 }
 
