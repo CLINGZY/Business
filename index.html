@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Business</title>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title id="pageTitle">Business</title>
 
   <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
 
-  <!-- HEADER -->
 <header class="header">
 
   <div class="container nav">
 
-    <div class="logo">
-      Business Logo
-    </div>
+    <div class="logo" id="business-name"></div>
 
-    <!-- DESKTOP LINKS -->
     <nav class="links">
-
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
-
     </nav>
 
-    <!-- HAMBURGER -->
     <button class="hamburger" id="hamburger">
-
       <span></span>
       <span></span>
       <span></span>
-
     </button>
 
   </div>
 
-  <!-- MOBILE MENU -->
+
   <nav class="mobile-menu" id="mobileMenu">
 
     <a href="#about">About</a>
@@ -54,156 +48,131 @@
 </header>
 
 
+<section class="hero">
 
+  <img
+    id="heroImage"
+    class="hero-img"
+    alt="Business hero image"
+  >
 
+  <div class="overlay"></div>
 
+  <div class="container hero-content">
 
+    <h1 id="heroTitle"></h1>
 
-  <!-- HERO -->
-  <section class="hero">
+    <p id="heroText"></p>
 
-    <img 
-  src="./images/hero.jpeg" 
-  alt="Barber cutting hair" 
-  class="hero-img" 
-/>
+    <div class="hero-buttons">
 
-    <div class="overlay"></div>
+      <a class="btn primary" id="heroWhatsappBtn">
+        WhatsApp Us
+      </a>
 
-    <div class="container hero-content">
-
-      <h1>Premium Business Experience</h1>
-
-      <p>
-        High-quality service tailored for your needs. Fast response and reliable delivery.
-      </p>
-
-      <div class="hero-buttons">
-        <a class="btn primary" href="https://wa.me/2349070081056">WhatsApp Us</a>
-        <a class="btn outline" href="tel:+2349070081056">Call Now</a>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="container">
-
-      <h2>About Us</h2>
-
-      <p>
-        We provide professional and reliable services designed to meet your everyday needs.
-        Quality, speed, and customer satisfaction are our priority.
-      </p>
-
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <!-- SERVICES -->
-<section id="services" class="section dark">
-  <div class="container">
-
-    <h2>Our Services</h2>
-
-    <p>
-      Premium grooming services designed to keep you sharp, clean, and confident every day.
-    </p>
-
-    <div class="grid">
-
-      <div class="card">
-        <h3>Classic Haircut</h3>
-        <p>Clean, precise cuts tailored to your head shape and personal style.</p>
-      </div>
-
-      <div class="card">
-        <h3>Skin Fade</h3>
-        <p>Sharp fades with smooth blending for a modern, fresh look.</p>
-      </div>
-
-      <div class="card">
-        <h3>Beard Grooming</h3>
-        <p>Shape, trim, and define your beard for a clean professional finish.</p>
-      </div>
-
-      <div class="card">
-        <h3>Hot Towel Shave</h3>
-        <p>Traditional barber shave experience with premium comfort and precision.</p>
-      </div>
+      <a class="btn outline" id="heroCallBtn">
+        Call Now
+      </a>
 
     </div>
 
   </div>
+
 </section>
 
-  <!-- GALLERY -->
-  <section id="gallery" class="section">
-    <div class="container">
 
-      <h2>Gallery</h2>
+<section id="about" class="section">
 
-      <div class="gallery collapsed" id="gallery">
+  <div class="container">
 
-  <img src="./images/gallery-1.jpeg">
-<img src="./images/hero.jpeg">
-<img src="./images/gallery-3.jpeg">
-<img src="./images/hero.jpeg">
-<img src="./images/gallery-5.jpeg">
+    <h2 id="aboutTitle"></h2>
 
-<img src="./images//gallery-6.jpeg">
+    <p id="aboutText"></p>
 
-<img src="./images/gallery-7.jpeg">
+  </div>
 
-<img src="./images/gallery-8.jpeg">
+</section>
 
-<img src="./images/gallery-3.jpeg">
 
-</div>
+<section id="services" class="section dark">
 
-      <button class="gallery-btn">View All Photos</button>
+  <div class="container">
+
+    <h2>Our Services</h2>
+
+    <p id="servicesText"></p>
+
+    <div class="grid" id="servicesContainer"></div>
+
+  </div>
+
+</section>
+
+
+<section id="gallery" class="section">
+
+  <div class="container">
+
+    <h2>Gallery</h2>
+
+    <div class="gallery collapsed" id="galleryContainer"></div>
+
+    <button class="gallery-btn">
+      View All Photos
+    </button>
+
+  </div>
+
+</section>
+
+
+<section id="contact" class="section dark">
+
+  <div class="container">
+
+    <h2>Contact Us</h2>
+
+    <p id="contactText"></p>
+
+    <div class="contact-buttons">
+
+      <a class="btn primary" id="whatsappBtn">
+        WhatsApp Us
+      </a>
+
+      <a class="btn outline" id="callBtn">
+        Call Now
+      </a>
 
     </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section dark">
-    <div class="container">
+  </div>
 
-      <h2>Contact Us</h2>
+</section>
 
-      <p>Fast response via WhatsApp and phone call.</p>
 
-      <div class="contact-buttons">
+<footer class="footer">
 
-        <a class="btn primary" href="https://wa.me/2349070081056">
-          WhatsApp Us
-        </a>
+  <div class="container">
 
-        <a class="btn outline" href="tel:+2349070081056">
-          Call Now
-        </a>
+    © <span id="footerName"></span>. All Rights Reserved.
 
-      </div>
+  </div>
 
-    </div>
-  </section>
+</footer>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      © Business Name. All Rights Reserved.
-    </div>
-  </footer>
 
-  <!-- FLOATING WHATSAPP -->
-  <a class="floating-whatsapp" href="https://wa.me/2349070081056">
-    💬
-  </a>
+<a
+  class="floating-whatsapp"
+  id="floatingWhatsapp"
+>
+  💬
+</a>
 
-  <script src="index.js"></script>
+
+<script src="content.js"></script>
+<script src="index.js"></script>
 
 </body>
+
 </html>
