@@ -1,30 +1,35 @@
 const business = {
 
-name: "Business Name",
+name: "Apex Barber Studio",
 
 theme: {
-primary: "#111111",
-hover: "#333333"
+  primary: "#c1121f",
+  hover: "#8f0d16"
 },
 
 
 // HERO
 
 hero: {
-image: ".",
+    image: "./images/hero.jpeg",
 
-title: "Premium Business Experience",
+    title:
+    "Sharp Cuts. Premium Experience.",
 
-text: "High-quality service tailored for your needs.",
+    text:
+    "Modern grooming services built for confidence, style, and precision.",
+
+    whatsappText:
+    "Hello Apex Barber Studio, I would like to book an appointment."
 },
 
 
 // ABOUT
 
 about: {
-title: "About Us",
+  title: "About Apex Barber Studio",
 
-text: "We provide professional and reliable services designed around our customers."
+  text: "We combine traditional barbering techniques with modern styles to deliver a premium grooming experience."
 },
 
 
@@ -33,18 +38,27 @@ text: "We provide professional and reliable services designed around our custome
 services: [
 
 {
-title: "Service One",
-description: "Description of this service."
+  title: "Classic Haircut",
+
+  description: "Clean, precise cuts tailored to your personal style and preference."
 },
 
 {
-title: "Service Two",
-description: "Description of this service."
+  title: "Skin Fade",
+
+  description: "Smooth fades with detailed blending and sharp finishing."
 },
 
 {
-title: "Service Three",
-description: "Description of this service."
+  title: "Beard Grooming",
+
+  description: "Professional beard shaping, trimming, and detailing."
+},
+
+{
+  title: "Hair + Beard Combo",
+
+  description: "A complete grooming package for a fresh, confident look."
 }
 
 ],
@@ -54,12 +68,19 @@ description: "Description of this service."
 
 gallery: [
 
-".",
+"./images/gallery-1.jpeg",
 
-".",
+"./images/gallery-3.jpeg",
 
-"."
+"./images/gallery-5.jpeg",
 
+"./images/gallery-6.jpeg",
+
+"./images/gallery-7.jpeg",
+
+"./images/gallery-8.jpeg",
+
+"./images/hero.jpeg"
 ],
 
 
@@ -67,9 +88,12 @@ gallery: [
 
 contact: {
 
-whatsapp: "2340000000000",
+whatsapp: "2349070081056",
 
-phone: "+2340000000000",
+phone: "+2349070081056",
+
+whatsappText:
+  "Hello Apex Barber Studio, I would like to book an appointment."
 }
 
 };
