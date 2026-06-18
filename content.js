@@ -38,27 +38,21 @@ about: {
 services: [
 
 {
-  title: "Classic Haircut",
-
-  description: "Clean, precise cuts tailored to your personal style and preference."
+title:"Haircut",
+price:"₦5,000",
+description:"Clean professional cuts tailored to your style."
 },
 
 {
-  title: "Skin Fade",
-
-  description: "Smooth fades with detailed blending and sharp finishing."
+title:"Beard Grooming",
+price:"₦3,000",
+description:"Precision beard shaping and grooming."
 },
 
 {
-  title: "Beard Grooming",
-
-  description: "Professional beard shaping, trimming, and detailing."
-},
-
-{
-  title: "Hair + Beard Combo",
-
-  description: "A complete grooming package for a fresh, confident look."
+title:"Full Grooming",
+price:"₦7,500",
+description:"Complete haircut and beard package."
 }
 
 ],

@@ -33,10 +33,15 @@ business.services.forEach(service=>{
 
 servicesContainer.innerHTML += `
 <div class="card">
-<h3>${service.title}</h3>
-<p>${service.description}</p>
-</div>
-`;
+   <h3>${service.title}</h3>
+
+   <div class="service-price">
+   ${service.price}
+   </div>
+
+   <p>${service.description}</p>
+</div>`
+;
 
 });
 
