@@ -11,7 +11,7 @@ hover: "#333333"
 // HERO
 
 hero: {
-image: "./images/hero.jpeg",
+image: ".",
 
 title: "Premium Business Experience",
 
@@ -54,11 +54,11 @@ description: "Description of this service."
 
 gallery: [
 
-"./images/gallery-1.jpeg",
+".",
 
-"./images/gallery-2.jpeg",
+".",
 
-"./images/gallery-3.jpeg"
+"."
 
 ],
 
